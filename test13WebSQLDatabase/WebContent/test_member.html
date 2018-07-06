@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+	
+</script>
+
+</head>
+
+<body onload="dataLoad()">
+
+	<h1>회원 관리 화면</h1>
+
+	아이디:
+	<input id="name" type="text"> 비번:
+	<input id="age" type="number">
+
+	<button onclick="dataInsert()">추가</button>
+
+	<hr>
+
+	<select id="list" size=5 style="width: 300px"></select>
+
+	<button onclick="dataDelete()">삭제</button>
+	<button onclick="dataDeleteAll()">모두삭제</button>
+	<button onclick="dataUpdate()">수정</button>
+
+</body>
+
+</html>
